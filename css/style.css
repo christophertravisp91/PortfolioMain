@@ -3,10 +3,26 @@ body {
   font-family: Tahoma;
   line-height: 1.5em;
   color: #1d0085;
+  align-items: center;
+}
+h1,
+h2 {
+  font-family: "Cormorant SC", serif;
+  border-top: solid 2px #000;
+  border-bottom: solid 2px #000;
 }
 .link-text {
   color: #028d02;
 }
+.card {
+  width: 250px;
+  padding: 1%;
+}
 .headshot {
-  justify-content: flex-end;
+  width: 100%;
+  height: 100%;
+}
+.bordered {
+  border-top: solid 2px #000;
+  border-bottom: solid 2px #000;
 }

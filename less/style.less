@@ -4,19 +4,36 @@
 @secondary-color: rgb(29, 0, 133);
 @tertiary-color: rgb(168, 3, 3);
 @line-height: 1.5em;
-
+@title-text: "Cormorant SC", serif;
 
 body{
     background:@background-color;
     font-family: @font-family;
     line-height: @line-height;
     color:@secondary-color;
+    align-items: center;
+}
+
+h1, h2{
+    font-family: @title-text;
+    .bordered
 }
 
 .link-text{
     color:@primary-color; 
 }
 
+.card{
+    width: 250px;
+    padding: 1%;
+}
+
 .headshot{
-    justify-content: flex-end;
+    width:100%;
+    height:100%;
+}
+
+.bordered{
+    border-top: solid 2px #000;
+    border-bottom: solid 2px #000;
 }
