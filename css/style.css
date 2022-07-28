@@ -2,4 +2,11 @@ body {
   background: #f4f4f4;
   font-family: Tahoma;
   line-height: 1.5em;
+  color: #1d0085;
+}
+.link-text {
+  color: #028d02;
+}
+.headshot {
+  justify-content: flex-end;
 }
