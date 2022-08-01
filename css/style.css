@@ -24,6 +24,8 @@ h2 {
 .headshot {
   width: 50%;
   max-height: 250px;
+  align-items: center;
+  justify-content: center;
 }
 .bordered {
   border-top: solid 2px #000;
