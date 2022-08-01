@@ -3,6 +3,7 @@
 @primary-color: rgb(2, 141, 2);
 @secondary-color: rgb(29, 0, 133);
 @tertiary-color: rgb(168, 3, 3);
+@fourth-color: gray;
 @line-height: 1.5em;
 @title-text: "Cormorant SC", serif;
 
@@ -37,10 +38,9 @@ h1, h2{
 }
 
 .logo{
-    color: gray;
-    font-size: 35px;
+    color: @fourth-color;
+    font-size: 50px;
     letter-spacing: 1px;
-    cursor:pointer;
 }
 
 span{
@@ -50,13 +50,15 @@ span{
 nav ul li{
     list-style-type: none;
     display: inline-block;
-    padding: 10px 25px;
+    padding: 2rem 2rem;
+    align-items: center;
 }
 
 nav ul li a{
-    color: black;
+    color: @secondary-color;
     text-decoration: none;
     font-weight: bold;
+    font-size: 15px;
 }
 
 nav ul li a:hover{
@@ -64,20 +66,17 @@ nav ul li a:hover{
     transition: .5s;
 }
 
+.btn{
+    background-color: @tertiary-color;
+    color: @fourth-color;
+}
+
+.btn:hover{
+    transform: scale(1.2);
+}
+
 .link-text{
     color:@secondary-color; 
-}
-
-.card{
-    width: 100%;
-    padding: 1%;
-}
-
-.headshot{
-    width:50%;
-    max-height:250px;
-    align-items: center;
-    justify-content: center;
 }
 
 .bordered{
