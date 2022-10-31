@@ -12,14 +12,27 @@ body{
     font-family: @font-family;
     line-height: @line-height;
     color:@secondary-color;
+    background-image: url("../assets/background.jpg");
 }
 
 .hero{
-    height:100vh;
+    height:50vh;
     width: 100%;
-    background-image: url("../assets/background.jpg");
-    background-size: cover;
-    background-position: center;
+    color: white;
+}
+
+.summary{
+    text-align: center;
+    margin: auto;
+}
+
+img {
+    opacity: .8;
+}
+
+.summary{
+    bottom: 15px;
+    left: 30px;
 }
 
 nav{
@@ -66,6 +79,10 @@ nav ul li a:hover{
     transition: .5s;
 }
 
+.btn{
+
+}
+
 .btn:hover{
     transform: scale(1.2);
 }
@@ -87,6 +104,7 @@ img {
 p {
     text-align: center;
     font-size: 16px;
+    color: black;
 }
 
 footer ul li{

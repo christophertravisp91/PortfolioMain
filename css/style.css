@@ -3,13 +3,23 @@ body {
   font-family: Tahoma;
   line-height: 1.5em;
   color: #1d0085;
+  background-image: url("../assets/background.jpg");
 }
 .hero {
-  height: 100vh;
+  height: 50vh;
   width: 100%;
-  background-image: url("../assets/background.jpg");
-  background-size: cover;
-  background-position: center;
+  color: white;
+}
+.summary {
+  text-align: center;
+  margin: auto;
+}
+img {
+  opacity: 0.8;
+}
+.summary {
+  bottom: 15px;
+  left: 30px;
 }
 nav {
   display: flex;
@@ -67,6 +77,7 @@ img {
 p {
   text-align: center;
   font-size: 16px;
+  color: black;
 }
 footer ul li {
   display: flex;
